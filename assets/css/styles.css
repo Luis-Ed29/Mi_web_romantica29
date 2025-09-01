@@ -279,3 +279,29 @@ img {
   margin: 0 auto;
 }
 
+/* Estilos generales para escritorio */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 columna en móvil */
+    gap: 10px;
+  }
+
+  .gallery img {
+    border-radius: 10px;
+  }
+}
+
